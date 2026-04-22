@@ -1,0 +1,240 @@
+# File di Test per Esercizi Regex
+
+Questo file contiene dati di test che puoi usare per praticare con le espressioni regolari.
+
+---
+
+## SEZIONE 1: Email
+
+mario.rossi@example.com
+laura.bianchi@scuola.edu.ch
+luca_verdi@gmail.com
+sofia.neri123@hotmail.com
+invalid.email
+test@
+@example.com
+user@@double.com
+no-domain@
+user@domain
+mario@sub.domain.com
+
+---
+
+## SEZIONE 2: Numeri di Telefono Svizzeri
+
+078 123 45 67
+079 234 56 78
+0781234567
+0791234567
+076-123-45-67
++41 78 123 45 67
+041 123 45 67
+091 234 56 78
+12345
+078 12 34 56
+
+---
+
+## SEZIONE 3: Codici Postali Svizzeri
+
+6900
+1000
+8000
+3000
+123
+12345
+abcd
+6900 Lugano
+
+---
+
+## SEZIONE 4: Date
+
+10/11/2025
+25/12/2024
+32/13/2025
+00/01/2025
+15-06-2024
+2025-11-10
+1/1/2025
+31/02/2024
+
+---
+
+## SEZIONE 5: URL
+
+https://www.example.com
+http://example.com
+https://sub.example.com:8080/path
+www.example.com
+ftp://example.com
+not-a-url
+https://example.com/path?query=1&param=2
+
+---
+
+## SEZIONE 6: Indirizzi IP
+
+192.168.1.1
+10.0.0.1
+255.255.255.255
+256.1.1.1
+192.168.1
+1.2.3.4.5
+0.0.0.0
+
+---
+
+## SEZIONE 7: Numeri AVS Svizzeri
+
+756.1234.5678.90
+756.9999.8888.77
+755.1234.5678.90
+756123456789
+756.123.456.78
+7561234567890
+
+---
+
+## SEZIONE 8: Password
+
+Password123!
+weakpass
+NOLOWER123!
+noupper123!
+NoNumber!
+NoSpecial123
+Short1!
+VeryStrongPassword123!@#
+
+---
+
+## SEZIONE 9: Social Media
+
+Ciao a tutti! Oggi ho imparato #regex e #programming 🚀
+Seguite @mario e @laura per più contenuti su #coding
+Check out this tutorial: https://example.com/tutorial #learn
+#tutorial #python #javascript #vscode
+@user1 @user2 che ne pensate di #FSM?
+
+---
+
+## SEZIONE 10: Testo Misto per Parsing
+
+Nome: Mario Rossi, Età: 17, Email: mario@example.com, Telefono: 078 123 45 67
+Nome: Laura Bianchi, Età: 18, Email: laura@scuola.ch, Telefono: 079 234 56 78
+Nome: Luca Verdi, Età: 16, Email: luca@gmail.com, Telefono: 076 345 67 89
+
+---
+
+## SEZIONE 11: Codice da Pulire (JavaScript)
+
+function calcola() {
+    console.log("Debug: iniziando calcolo");
+    let result = 0;
+    console.log("Debug: result = " + result);
+    for (let i = 0; i < 10; i++) {
+        console.log("Debug: i = " + i);
+        result += i;
+    }
+    console.log("Debug: fine");
+    return result;
+}
+
+---
+
+## SEZIONE 12: Log File Entries
+
+2025-11-10 14:30:45 ERROR: Database connection failed
+2025-11-10 14:31:12 WARNING: Slow query detected (2.5s)
+2025-11-10 14:32:01 INFO: User mario@example.com logged in
+2025-11-10 14:33:45 ERROR: File not found: /path/to/file.txt
+2025-11-10 14:35:20 INFO: Server started on port 8080
+2025-11-10 14:36:15 DEBUG: Processing request from 192.168.1.100
+
+---
+
+## SEZIONE 13: HTML da Pulire
+
+<p>Questo è un <strong>testo importante</strong> con <em>enfasi</em>.</p>
+<div class="container">
+    <h1>Titolo</h1>
+    <p>Paragrafo con <a href="https://example.com">link</a>.</p>
+</div>
+<script>alert('test');</script>
+
+---
+
+## SEZIONE 14: Liste da Formattare
+
+Mario Rossi, 25, Lugano
+Laura Bianchi, 30, Zurigo
+Luca Verdi, 28, Ginevra
+Sofia Neri, 35, Basilea
+
+---
+
+## SEZIONE 15: Numeri vari
+
+Prezzo: 25.50 CHF
+Totale: 1'234.50 CHF
+Quantità: 100 pezzi
+Percentuale: 15.5%
+Temperatura: -5.2°C
+Coordinate: 46.0037° N, 8.9511° E
+
+---
+
+## SEZIONE 16: Parole Duplicate
+
+Questo questo è un test test di parole parole duplicate
+Il il codice codice funziona bene bene
+Regex regex sono sono utili utili
+
+---
+
+## SEZIONE 17: Codice Python da Refactorare
+
+import os
+import sys
+import re
+
+nome_completo = "Mario Rossi"
+data_nascita = "10/11/2000"
+codice_fiscale = "ABC123"
+numero_telefono = "0781234567"
+
+def calcola_eta(data):
+    pass
+
+def valida_codice(codice):
+    pass
+
+---
+
+## SEZIONE 18: Indirizzi Completi
+
+Via Roma 15, 6900 Lugano
+Bahnhofstrasse 1, 8001 Zürich
+Route de Lausanne 25, 1202 Genève
+Spalenring 10, 4055 Basel
+
+---
+
+## SEZIONE 19: Numeri con Separatori
+
+1234567
+1'234'567
+1,234,567
+1.234.567
+1 234 567
+
+---
+
+## SEZIONE 20: File Paths
+
+C:\Users\Mario\Documents\file.txt
+/home/mario/projects/regex/test.py
+../relative/path/file.js
+C:/Windows/System32/notepad.exe
+/var/log/system.log
